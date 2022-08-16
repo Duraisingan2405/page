@@ -1,0 +1,110 @@
+body{
+    background-image:url("images/bg.jpg");
+    background-repeat: no-repeat;
+
+ background-size: cover;
+  
+}
+ul li{
+ float:left;
+ list-style-type: none;
+ overflow:hidden;
+ margin-left:20px;
+ padding-top:20px;
+
+   
+}
+
+.btn{
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+    padding: 5px 20px;
+    border:none;
+    opacity: 0.7;
+    outline:none;
+    background-color:green;
+    border-radius: 10px;
+    color:white;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-top:20px;
+}
+ul li a {
+    text-decoration: none;
+    padding:5px 50px;
+    color:black;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+ul li a:hover{
+ color: blue;
+ transition: 0.5s;
+ cursor: pointer;
+}
+.btn:hover{
+
+    background-color:red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.new{
+    clear:both;
+}
+.social{
+    margin-left: 70px;  
+    margin-top:300px;
+    
+}
+button{
+    margin-left:40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: larger;
+    color:black;
+    
+    border-radius:10px;
+    border:none;
+    outline:none;
+    font-weight: bold;
+    background-color: transparent;
+    
+
+
+}
+.fb:hover{
+background-color: blue;
+transition: 0.5s;
+cursor: pointer;
+}
+.u:hover{
+    background-color: rgb(220, 22, 22);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ins:hover{
+   background-color: brown;
+   transition: 0.5s;
+   cursor: pointer;
+}
+.nam{
+    margin-left: 115px;  
+    margin-top:220px;
+    position:absolute;
+    font-weight:bold;
+    font-size: xx-large;
+}
+.fir img{
+    opacity:0.5;
+
+}
+.fir img:hover{
+    opacity:1;
+    
+}
+
+
+
+
+
